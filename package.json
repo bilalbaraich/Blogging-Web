@@ -1,0 +1,31 @@
+{
+  "name": "blogging-website",
+  "version": "1.0.0",
+  "description": "A simple blogging website with automated CI/CD workflows.",
+  "main": "index.js",
+  "scripts": {
+    "lint:html": "htmlhint 'src/**/*.html'",
+    "lint:css": "stylelint 'styles/**/*.css'",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.10.0",
+    "stylelint-config-standard": "^33.0.0",
+    "parcel": "^2.9.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilalbaraich/Blogging-Web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/bilalbaraich/Blogging-Web/issues"
+  },
+  "homepage": "https://github.com/bilalbaraich/Blogging-Web#readme"
+}
